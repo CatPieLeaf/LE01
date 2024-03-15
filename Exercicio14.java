@@ -7,6 +7,10 @@ public class Exercicio14 {
     // Resultado: an = 28
 
     public static void run() {
+        int a1 = Prompt.lerInteiro("Digite o Primeiro Termo (a1):");
+        int n = Prompt.lerInteiro("Digite o n-ésimo termo (n):");
+        int r = Prompt.lerInteiro("Digite a Razao (r):");
+        int an = a1 + (n - 1) * r;
+        Prompt.imprimir("Resultado: " + an);
     }
-
 }
