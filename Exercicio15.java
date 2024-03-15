@@ -5,6 +5,11 @@ public class Exercicio15 {
     // Exemplo: p1(0, 5), p2(10, 20). Distancia: 18,03
 
     public static void run() {
+        double x1 = Prompt.lerDecimal("Digite a coordenada X do ponto 1");
+        double y1 = Prompt.lerDecimal("Digite a coordenada Y do ponto 1");
+        double x2 = Prompt.lerDecimal("Digite a coordenada X do ponto 2");
+        double y2 = Prompt.lerDecimal("Digite a coordenada Y do ponto 2");
+        double d = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+        Prompt.imprimir("Distancia: " + d);
     }
-
 }
